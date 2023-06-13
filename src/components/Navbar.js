@@ -1,4 +1,3 @@
-import React from "react"
 import airbnb_logo from '../images/airbnb-logo.png'
 
 export default function Navbar() {
