@@ -47,7 +47,7 @@ nav {
 .card-img {
   max-width: 175px;
   border-radius: 15px;
-  position: relative;
+  /* position: relative; */
 }
 
 .card--star {
