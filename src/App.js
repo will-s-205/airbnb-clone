@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card 
-      img="katie-zaferes.png"
+      img={katie_zaferes}
       star={star}
       rating="5.0"
       reviewCount={6}
