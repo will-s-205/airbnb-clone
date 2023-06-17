@@ -25,7 +25,7 @@ export default [
         price: 125,
         coverImg: wedding_hotography,
         stats: {
-            rating: 5.0,
+            rating: 4.9,
             reviewCount: 30
         },
         location: "Online",
