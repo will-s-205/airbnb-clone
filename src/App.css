@@ -21,7 +21,6 @@ nav {
 .nav-logo {
   width: 90px;
   display: flex;
-  /* flex-direction: column; */
 }
 
 .hero-section {
@@ -59,7 +58,7 @@ nav {
 
 .card {
   width: 175px;
-  font-size: 14px;
+  font-size: 12px;
   flex: 0 0 auto;
   display: flex;
   flex-direction: column;
