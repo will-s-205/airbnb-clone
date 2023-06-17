@@ -17,6 +17,7 @@ let data = [
         },
         location: "Online",
         openSpots: 0,
+        link: "https://en.wikipedia.org/wiki/Katie_Zaferes",
     },
     {
         id: 2,
@@ -30,6 +31,7 @@ let data = [
         },
         location: "Online",
         openSpots: 27,
+        link: "https://en.wikipedia.org/wiki/Wedding",
     },
     {
         id: 3,
@@ -43,6 +45,7 @@ let data = [
         },
         location: "Norway",
         openSpots: 3,
+        link: "https://en.wikipedia.org/wiki/Mountain_biking",
     },
     {
         id: 4,
@@ -56,6 +59,7 @@ let data = [
         },
         location: "Ukraine",
         openSpots: 0,
+        link: "https://en.wikipedia.org/wiki/Bicycle_culture",
     },
     {
         id: 5,
@@ -69,6 +73,7 @@ let data = [
         },
         location: "Europe",
         openSpots: 1,
+        link: "https://en.wikipedia.org/wiki/Cycling",
     },
 ]
 
