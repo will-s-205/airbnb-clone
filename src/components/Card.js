@@ -14,7 +14,7 @@ export default function Card(props) {
 
     return (
         <div className="card">
-            <a href={props.link} target='_blank' rel="noreferrer">
+            <a href={props.link} target='_blank' rel="noreferrer" className='none-text-decoration'>
                 {badgeText && <div className="card-badge">{badgeText}</div>}
                 <img src={props.coverImg} className="card-img" alt="card-img" />
                 <div className="card-stats">

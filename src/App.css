@@ -110,3 +110,7 @@ nav {
   text-decoration: none;
   cursor: pointer;
 }
+
+.none-text-decoration {
+  text-decoration: none;
+}
