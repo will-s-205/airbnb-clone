@@ -14,16 +14,18 @@ export default function Card(props) {
 
     return (
         <div className="card">
-            {badgeText && <div className="card-badge">{badgeText}</div>}
-            <a href={props.link} target='_blank'><img src={props.coverImg} className="card-img" alt="card-img" /></a>
-            <div className="card-stats">
-                <img src={star} className="card-star" alt="star" />
-                <span>{props.stats.rating}</span>
-                <span className="gray"> ({props.stats.reviewCount}) • </span>
-                <span className="gray">{props.location}</span>
-            </div>
-            <p className="card-title">{props.title}</p>
-            <p><span className="bold">From ${props.price}</span> / person</p>
+            <a href={props.link} target='_blank' rel="noreferrer">
+                {badgeText && <div className="card-badge">{badgeText}</div>}
+                <img src={props.coverImg} className="card-img" alt="card-img" />
+                <div className="card-stats">
+                    <img src={star} className="card-star" alt="star" />
+                    <span>{props.stats.rating}</span>
+                    <span className="gray"> ({props.stats.reviewCount}) • </span>
+                    <span className="gray">{props.location}</span>
+                </div>
+                <p className="card-title">{props.title}</p>
+                <p><span className="bold">From ${props.price}</span> / person</p>
+            </a>
         </div>
     )
 }
