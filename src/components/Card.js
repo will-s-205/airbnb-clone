@@ -14,9 +14,7 @@ export default function Card(props) {
 
     return (
         <div className="card">
-            {props.openSpots === 0 && <div className="card-badge">SOLD OUT</div>}
-            {/* OR */}
-            {/* <div className="card-badge">{badgeText}</div> */}
+            {badgeText && <div className="card-badge">{badgeText}</div>}
             <img src={props.img} className="card-img" alt="card-img" />
             <div className="card-stats">
                 <img src={star} className="card-star" alt="star" />
