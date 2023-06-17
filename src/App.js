@@ -12,25 +12,17 @@ function App() {
   // console.log(data);
   const DataEls = Data.map(data => {
     return <Card 
-    price={data.price} 
+    img={data.coverImg}
+    price={data.price}
+    title={data.title}
+    rating={data.stats.rating}
+    reviewCount={data.stats.reviewCount}
+    country={data.location}
     />
   })
   
   return (
     <div>
-    <div>
-      <Navbar />
-      <Hero />
-      <Card 
-      img={katie_zaferes}
-      star={star}
-      rating="5.0"
-      reviewCount={6}
-      country="USA"
-      title="Life lessons with Katie Zaferes"
-      price={136}
-      />
-    </div>
     {DataEls}
     </div>
   );
