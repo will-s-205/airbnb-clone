@@ -19,13 +19,15 @@ function App() {
       country={item.location}
     />
   })
-    // console.log(cards); // DEBUGGING
+  // console.log(cards); // DEBUGGING
 
   return (
     <div>
       <Navbar />
       <Hero />
-      {cards}
+      <section className="cards-list">
+        {cards}
+      </section>
     </div>
   );
 }
