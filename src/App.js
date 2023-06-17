@@ -2,16 +2,15 @@ import './App.css';
 import Navbar from '../src/components/Navbar'
 import Hero from '../src/components/Hero'
 import Card from '../src/components/Card'
-import katie_zaferes from './images/katie-zaferes.png'
-import star from './images/star.png'
 import Data from './data'
 
 function App() {
 
 
-  // console.log(data);
-  const DataEls = Data.map(item => {
+  console.log(Data);
+  const cards = Data.map(item => {
     return <Card
+      key={item.id} // to get rid of warnings
       img={item.coverImg}
       price={item.price}
       title={item.title}
@@ -20,12 +19,13 @@ function App() {
       country={item.location}
     />
   })
+    console.log(cards);
 
   return (
     <div>
       <Navbar />
       <Hero />
-      {DataEls}
+      {cards}
     </div>
   );
 }
