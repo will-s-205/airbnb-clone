@@ -1,6 +1,8 @@
 import katie_zaferes from './images/katie-zaferes.png'
 import wedding_hotography from './images/wedding-photography.png'
 import mountain_biking from './images/mountain-bike.png'
+import ukr_biking from './images/pexels-evg-kowalievska-1209480.jpg'
+import euro_biking from './images/pexels-gul-isik-2128028.jpg'
 
 export default [
     {
@@ -37,35 +39,35 @@ export default [
         coverImg: mountain_biking,
         stats: {
             rating: 4.8,
-            reviewCount: 2
+            reviewCount: 12
         },
         location: "Norway",
         openSpots: 3,
     },
     {
         id: 4,
-        title: "Group Mountain Biking",
-        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: mountain_biking,
+        title: "Solo Biking",
+        description: "Experience the beautiful Ukrainian landscape and meet new friends all while conquering rugged terrain on your mountain bike.",
+        price: 10,
+        coverImg: ukr_biking,
         stats: {
-            rating: 4.8,
-            reviewCount: 2
+            rating: 5.0,
+            reviewCount: 20
         },
-        location: "Norway",
-        openSpots: 3,
+        location: "Ukraine",
+        openSpots: 4,
     },
     {
         id: 5,
-        title: "Group Mountain Biking",
-        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: mountain_biking,
+        title: "Just Biking",
+        description: "Ride across the streets of the Europe. Visit new places. Be happy. (Bike NOT provided!)",
+        price: 20,
+        coverImg: euro_biking,
         stats: {
-            rating: 4.8,
-            reviewCount: 2
+            rating: 2.2,
+            reviewCount: 7
         },
-        location: "Norway",
-        openSpots: 3,
+        location: "Europe",
+        openSpots: 1,
     },
 ]
