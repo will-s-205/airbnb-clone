@@ -3,6 +3,7 @@ import wedding_hotography from './images/wedding-photography.png'
 import mountain_biking from './images/mountain-bike.png'
 import ukr_biking from './images/pexels-evg-kowalievska-1209480.jpg'
 import euro_biking from './images/pexels-gul-isik-2128028.jpg'
+import danylo_biking from './images/danylo-sorokin-ToANOZkk1lA-unsplash.jpg'
 
 let data = [
     {
@@ -63,7 +64,7 @@ let data = [
     },
     {
         id: 5,
-        title: "Just Biking",
+        title: "Street Biking",
         description: "Ride across the streets of the Europe. Visit new places. Be happy. (Bike NOT provided!)",
         price: 20,
         coverImg: euro_biking,
@@ -74,6 +75,20 @@ let data = [
         location: "Europe",
         openSpots: 1,
         link: "https://en.wikipedia.org/wiki/Cycling",
+    },
+    {
+        id: 6,
+        title: "Just Biking",
+        description: "Ride across deserts of Africa. Visit new places and challenge yourself everyday. (Bike NOT provided!)",
+        price: 10,
+        coverImg: danylo_biking,
+        stats: {
+            rating: 3.2,
+            reviewCount: 27
+        },
+        location: "Africa",
+        openSpots: 100,
+        link: "https://en.wikipedia.org/wiki/Cycle_sport",
     },
 ]
 
