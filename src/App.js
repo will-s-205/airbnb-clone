@@ -8,22 +8,24 @@ import Data from './data'
 
 function App() {
 
-  
+
   // console.log(data);
-  const DataEls = Data.map(data => {
-    return <Card 
-    img={data.coverImg}
-    price={data.price}
-    title={data.title}
-    rating={data.stats.rating}
-    reviewCount={data.stats.reviewCount}
-    country={data.location}
+  const DataEls = Data.map(item => {
+    return <Card
+      img={item.coverImg}
+      price={item.price}
+      title={item.title}
+      rating={item.stats.rating}
+      reviewCount={item.stats.reviewCount}
+      country={item.location}
     />
   })
-  
+
   return (
     <div>
-    {DataEls}
+      <Navbar />
+      <Hero />
+      {DataEls}
     </div>
   );
 }
