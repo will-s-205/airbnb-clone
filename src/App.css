@@ -35,16 +35,22 @@ nav {
   margin-top: 15px;
 }
 
-.card--section {
-  padding: 20px;
+.cards-list {
   display: flex;
-  flex-direction: column;
-  max-width: 850px;
-  margin: 0 auto;
-  font-size: 12px;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
-.card-img {
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;         
+  display: flex;          
+  flex-direction: column; 
+}
+
+.card--img {
   max-width: 175px;
   border-radius: 15px;
   /* position: relative; */
