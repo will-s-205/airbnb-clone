@@ -55,7 +55,7 @@ export default [
             reviewCount: 20
         },
         location: "Ukraine",
-        openSpots: 4,
+        openSpots: 0,
     },
     {
         id: 5,

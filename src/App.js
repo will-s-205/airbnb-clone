@@ -17,6 +17,7 @@ function App() {
       rating={item.stats.rating}
       reviewCount={item.stats.reviewCount}
       country={item.location}
+      openSpots={item.openSpots}
     />
   })
   // console.log(cards); // DEBUGGING
@@ -25,7 +26,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <section className="cards--list">
+      <section className="cards-list">
         {cards}
       </section>
     </div>
