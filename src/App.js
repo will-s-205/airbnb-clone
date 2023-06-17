@@ -7,10 +7,10 @@ import Data from './data'
 function App() {
 
 
-  console.log(Data);
+  // console.log(Data); // DEBUGGING
   const cards = Data.map(item => {
     return <Card
-      key={item.id} // to get rid of warnings
+      key={item.id} // to get rid of browser warnings
       img={item.coverImg}
       price={item.price}
       title={item.title}
@@ -19,7 +19,7 @@ function App() {
       country={item.location}
     />
   })
-    console.log(cards);
+    // console.log(cards); // DEBUGGING
 
   return (
     <div>
