@@ -3,6 +3,7 @@ import Navbar from '../src/components/Navbar'
 import Hero from '../src/components/Hero'
 import Card from '../src/components/Card'
 import Data from './data'
+import Footer from './components/Footer';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <section className="cards-list">
         {cards}
       </section>
+      <Footer />
     </div>
   );
 }
