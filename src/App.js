@@ -11,7 +11,7 @@ function App() {
   const cards = Data.map(item => {
     return <Card
       key={item.id} // to get rid of browser warnings
-      item={item}
+      {...item}     // get all data from data.js
     />
   })
   // console.log(cards); // DEBUGGING

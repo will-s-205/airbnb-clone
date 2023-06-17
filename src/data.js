@@ -4,7 +4,7 @@ import mountain_biking from './images/mountain-bike.png'
 import ukr_biking from './images/pexels-evg-kowalievska-1209480.jpg'
 import euro_biking from './images/pexels-gul-isik-2128028.jpg'
 
-export default [
+let data = [
     {
         id: 1,
         title: "Life Lessons with Katie Zaferes",
@@ -51,7 +51,7 @@ export default [
         price: 10,
         coverImg: ukr_biking,
         stats: {
-            rating: 5.0,
+            rating: 4.5,
             reviewCount: 20
         },
         location: "Ukraine",
@@ -64,10 +64,12 @@ export default [
         price: 20,
         coverImg: euro_biking,
         stats: {
-            rating: 2.2,
+            rating: 4.2,
             reviewCount: 7
         },
         location: "Europe",
         openSpots: 1,
     },
 ]
+
+export default data;
