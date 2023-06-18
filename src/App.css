@@ -53,6 +53,7 @@ nav {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
+/*   MAKE ELEMENTS FIT INTO PAGE AND ADD SCROLLBAR IF NEEDED */
   overflow-x: auto;
   max-width: 850px;
   margin: 0 auto;
