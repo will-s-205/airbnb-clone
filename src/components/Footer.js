@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className='footer'>
-            <small className="footer">by <a href="https://will-s-205.github.io/#contact">William Step</a></small>
+            <small className="footer">by <a href="https://github.com/will-s-205/airbnb-clone">William Step</a></small>
         </footer>
     )
 }
